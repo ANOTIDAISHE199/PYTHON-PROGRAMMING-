@@ -1,0 +1,13 @@
+friends = [("rachel", 19),
+           ("anol", 20),
+           ("zhou", 18),
+           ("blessed", 17),
+           ("moyo", 16),
+           ("andile", 21),]
+
+age = lambda data: data[1]>= 18
+
+drinking_buddies = list(filter(age,friends))
+
+for i in drinking_buddies:
+    print(i)
